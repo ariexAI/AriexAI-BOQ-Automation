@@ -1,6 +1,10 @@
 # 🚀 AriexAI — AI Powered BOQ Automation Engine
-
-> An AI-driven backend system for automating Bill of Quantities (BOQ) and quantity takeoff for civil engineering projects.
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
+![OpenPyXL](https://img.shields.io/badge/Excel-Automation-yellow)
+![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)
+![AEC](https://img.shields.io/badge/Industry-AEC-orange)
+> A scalable AI-driven backend engine built to automate Bill of Quantities (BOQ), structural quantity takeoff, and Excel-based estimation workflows for the AEC industry.
 
 AriexAI is designed to reduce manual Excel work, automate structural quantity calculations, and build a scalable backend foundation for future AI-assisted drawing analysis.
 
