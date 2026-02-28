@@ -10,6 +10,23 @@ AriexAI is designed to reduce manual Excel work, automate structural quantity ca
 
 ---
 
+---
+
+## 🎓 Internship Project Context
+
+AriexAI is an ongoing personal engineering project developed to combine civil engineering estimation workflows with backend software development.
+
+The project focuses on:
+
+- Automating BOQ preparation workflows
+- Implementing structural quantity calculations programmatically
+- Learning scalable backend API design using FastAPI
+- Exploring AI-assisted drawing interpretation for future BIM integration
+
+This project reflects practical learning in both **AEC domain knowledge** and **software engineering practices**.
+
+---
+
 ## 🏗 Problem Statement
 
 Manual BOQ preparation is:
