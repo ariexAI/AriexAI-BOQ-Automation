@@ -88,5 +88,22 @@ The system follows a clean separation between:
 - **Engineering Logic Layer** → Quantity calculations handled inside `services`
 - **Output Layer** → Excel BOQ generation and file handling
 
+---
+
+## 📡 API Preview (Swagger UI)
+
+The backend API can be tested interactively using FastAPI Swagger documentation.
+
+![Swagger Preview](swagger_preview.png)
+
+To run locally:
+
+uvicorn main:app --reload
+
+Then visit:
+http://127.0.0.1:8000/docs
+
+---
+
 This modular structure allows scalability for future AI features such as PDF drawing analysis and BIM integration.
 
