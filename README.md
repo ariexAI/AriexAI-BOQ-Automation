@@ -42,3 +42,30 @@ AriexAI aims to automate excavation, PCC, RCC, steel, slab, and footing calculat
 ---
 
 ## 🏛 Project Architecture
+
+```
+ariexAI/
+│
+├── main.py
+├── services/
+│   ├── footing_service.py
+│   ├── slab_service.py
+│   ├── boq_services.py
+│
+├── drawings/
+├── downloads/
+│
+├── project_boq.xlsx
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+The system follows a clean separation between:
+
+- **API Layer** → FastAPI endpoints defined in `main.py`
+- **Engineering Logic Layer** → Quantity calculations handled inside `services`
+- **Output Layer** → Excel BOQ generation and file handling
+
+This modular structure allows scalability for future AI features such as PDF drawing analysis and BIM integration.
+
